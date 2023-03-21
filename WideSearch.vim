@@ -8,6 +8,9 @@
 " Probably better implemented using quick-fix. Vim probably
 " already does this anyway, I just don't know how.
 
+" Works better if you start vim by preloading your entire project into
+" buffers.
+
 function! WideSearchForward(target)
   let g:globaltarget = a:target
   let b = bufnr('%')
