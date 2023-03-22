@@ -1,7 +1,7 @@
-# Upload the visual selection to godbolt.org
-# Hardcoded for tools I use
-# wslview came from https://github.com/wslutilities/wslu
-# (Useful if you're running on WSL)
+" Upload the visual selection to godbolt.org
+" Hardcoded for tools I use
+" wslview came from https://github.com/wslutilities/wslu
+" (Useful if you're running on WSL)
 
 fun! GodboltRegion(s,e)
   let lines = getline(a:s,a:e)
